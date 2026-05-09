@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Tangerine:wght@400;700&display=swap');
+@font-face {
+    font-family: Tangerine;
+    src: url(../font/Tangerine-Regular.ttf);
+}
+
 /*Element selectors*/
 body { 
     font-family: Arial, Helvetica, sans-serif;
@@ -5,11 +12,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
 h1 {
     color: #d2d773;
     text-align: center;
     margin-top: 20px;
 }
+
 p {
     color: #333;
     font-size: 16px;
@@ -23,4 +32,49 @@ p {
     background-color: #f5f4f5;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+body.script h1 {
+    font-family: 'Imperial Script', cursive;
+}
+h2 {
+    font-family: 'Tangerine', cursive;
+}
+
+h1 {
+    color: #e24aad;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #e24a89;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+p { 
+    font-family: 'Playwrite GB S', sans-serif;
+    color: #210f87;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-style: italic;
+}
+blockquote {
+    font-family: 'Playwrite GB S', sans-serif;
+    color: #f14e08;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    border-left: 4px solid #e24a89;
+    padding-left: 15px;
+}
+ul {
+    font-family: 'Playwrite GB S', sans-serif;
+    color: #210f87;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: medium;
 }
